@@ -31,7 +31,7 @@ const CIRCLES_OF_CONFUSION: Record<
     coc: 0.002,
     sensorHeight: 3.6,
   },
-  "智能手机": {
+  Smartphone: {
     coc: 0.002,
     sensorHeight: 7.3,
   },
