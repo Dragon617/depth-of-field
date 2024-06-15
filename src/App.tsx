@@ -118,7 +118,7 @@ function App() {
     useState(72);
   const [focalLengthInMillimeters, setFocalLengthInMillimeters] = useState(50);
   const [aperture, setAperture] = useState(1.8);
-  const [subject, setSubject] = useState("Human");
+  const [subject, setSubject] = useState("人");
   const [system, setSystem] = useState<(typeof SYSTEMS)[number]>("Metric");
   const [sensor, setSensor] = useState("35mm (full frame)");
 
