@@ -43,7 +43,7 @@ const CIRCLES_OF_CONFUSION: Record<
     coc: 0.019,
     sensorHeight: 15.6,
   },
-  "微型三分之四": {
+  "Micro Four Thirds": {
     coc: 0.015,
     sensorHeight: 13,
   },
