@@ -27,7 +27,7 @@ const CIRCLES_OF_CONFUSION: Record<
     sensorHeight: number;
   }
 > = {
-  "网络摄像头": {
+  Webcam: {
     coc: 0.002,
     sensorHeight: 3.6,
   },
