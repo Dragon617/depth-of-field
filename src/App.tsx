@@ -210,7 +210,7 @@ function App() {
         <Box pt={6}>
           <Flex gap={2}>
             <Box w="20%">
-              <Text align="right">Units</Text>
+              <Text align="right">单位</Text>
             </Box>
 
             <Box flexGrow={1}>
@@ -234,7 +234,7 @@ function App() {
           <Flex gap={2}>
             <Box w="20%">
               <Text align="right">
-                Subject Distance ({system === "Imperial" ? "ft" : "m"})
+                被拍摄者距离 ({system === "Imperial" ? "ft" : "m"})
               </Text>
             </Box>
             <Box flexGrow={1}>
@@ -263,7 +263,7 @@ function App() {
         <Box pt={6}>
           <Flex gap={2}>
             <Box w="20%">
-              <Text align="right">Focal Length (mm)</Text>
+              <Text align="right">焦距（mm）</Text>
             </Box>
             <Box flexGrow={1}>
               <Slider
@@ -304,7 +304,7 @@ function App() {
         <Box pt={6}>
           <Flex gap={2}>
             <Box w="20%">
-              <Text align="right">Aperture</Text>
+              <Text align="right">光圈</Text>
             </Box>
             <Box flexGrow={1}>
               <Slider
@@ -333,7 +333,7 @@ function App() {
           <Flex gap={2}>
             <Flex gap={2} width="50%">
               <Box w="20%" mt={2}>
-                <Text align="right">Sensor Size</Text>
+                <Text align="right">传感器尺寸</Text>
               </Box>
               <Box flexGrow={1}>
                 <Select
@@ -357,7 +357,7 @@ function App() {
 
             <Flex gap={2} width="50%">
               <Box w="20%" mt={2}>
-                <Text align="right">Subject</Text>
+                <Text align="right">主题</Text>
               </Box>
               <Box flexGrow={1}>
                 <Select
