@@ -400,8 +400,8 @@ function App() {
 
         <Box p={4} pt={6}>
           <Flex gap={5} justify="center">
-            <a href="https://github.com/jherr/depth-of-field" target="_blank">
-              Contribute to this open source project on GitHub.
+            <a href="https://www.longshao617.top" target="_blank">
+              前往摄影人的世界
             </a>
           </Flex>
         </Box>
