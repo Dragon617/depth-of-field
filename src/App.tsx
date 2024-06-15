@@ -27,11 +27,11 @@ const CIRCLES_OF_CONFUSION: Record<
     sensorHeight: number;
   }
 > = {
-  网络摄像头: {
+  "网络摄像头": {
     coc: 0.002,
     sensorHeight: 3.6,
   },
-  智能手机: {
+  "智能手机": {
     coc: 0.002,
     sensorHeight: 7.3,
   },
