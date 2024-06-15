@@ -215,7 +215,7 @@ function App() {
 
             <Box flexGrow={1}>
               <RadioGroup
-                onChange={(v) => setSystem(v as "英寸" | "米")}
+                onChange={(v) => setSystem(v as "Imperial" | "Metric")}
                 value={system}
               >
                 <Stack direction="row">
