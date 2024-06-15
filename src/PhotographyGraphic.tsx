@@ -46,19 +46,19 @@ export const SUBJECTS = {
     graphic: Human,
     height: 72,
   },
-  "Human At Desk": {
+  "办公桌上的人": {
     graphic: HumanAtDesk,
     height: 54,
   },
-  "Small Dog": {
+  "小狗": {
     graphic: SmallDog,
     height: 20,
   },
-  "Medium Dog": {
+  "中型狗": {
     graphic: MediumDog,
     height: 30,
   },
-  "Large Dog": {
+  "大型犬": {
     graphic: LargeDog,
     height: 40,
   },
