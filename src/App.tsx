@@ -338,7 +338,7 @@ function App() {
               <Box flexGrow={1}>
                 <Select
                   value={sensor}
-                  placeholder="Sensor"
+                  placeholder="传感器尺寸"
                   onChange={(evt) => {
                     if (!evt?.target?.value) {
                       return;
@@ -362,7 +362,7 @@ function App() {
               <Box flexGrow={1}>
                 <Select
                   value={subject}
-                  placeholder="Subject"
+                  placeholder="主题"
                   onChange={(evt) => {
                     if (SUBJECTS[evt?.target?.value as keyof typeof SUBJECTS]) {
                       setSubject(evt?.target?.value);
