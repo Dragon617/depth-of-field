@@ -42,7 +42,7 @@ const HumanAtDesk = () => (
 );
 
 export const SUBJECTS = {
-  Human: {
+  "Human": {
     graphic: Human,
     height: 72,
   },
