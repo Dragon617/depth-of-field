@@ -1,10 +1,10 @@
-# Depth Of Field Simulator
+# 景深模拟器
 
-A web application that allows you to figure out the depth of field of a camera lens. You can adjust the aperture, focal length, and distance to the subject to see how the depth of field changes. The application also shows the hyperfocal distance and the near and far limits of the depth of field. [Live Demo](https://jherr.github.io/depth-of-field/)
+一个网络应用程序，允许您计算相机镜头的景深。你可以调整光圈、焦距和到被摄体的距离，看看景深是如何变化的。该应用程序还显示了超焦距以及景深的远近极限。 [Live Demo](https://jherr.github.io/depth-of-field/)
 
-## Getting Started
+## 入门
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+这些说明将为您提供一份项目副本，并在您的本地机器上运行，用于开发和测试目的。
 
 ```bash
 npm install
