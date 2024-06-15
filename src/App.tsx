@@ -27,11 +27,11 @@ const CIRCLES_OF_CONFUSION: Record<
     sensorHeight: number;
   }
 > = {
-  Webcam: {
+  网络摄像头: {
     coc: 0.002,
     sensorHeight: 3.6,
   },
-  Smartphone: {
+  智能手机: {
     coc: 0.002,
     sensorHeight: 7.3,
   },
@@ -57,14 +57,14 @@ const COMMON_SETUPS: {
   sensor: string;
 }[] = [
   {
-    name: "Webcam",
+    name: "网络摄像头",
     focalLength: 3.6,
     aperture: 2.8,
     idealDistance: 36,
     sensor: "Webcam",
   },
   {
-    name: "Smartphone",
+    name: "智能手机",
     focalLength: 4.3,
     aperture: 2.0,
     idealDistance: 36,
