@@ -234,7 +234,7 @@ function App() {
           <Flex gap={2}>
             <Box w="20%">
               <Text align="right">
-                被拍摄者距离 ({system === "Imperial" ? "ft" : "m"})
+                被拍摄者距离相机 ({system === "Imperial" ? "ft" : "m"})
               </Text>
             </Box>
             <Box flexGrow={1}>
