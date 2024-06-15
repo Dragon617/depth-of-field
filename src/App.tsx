@@ -119,7 +119,7 @@ function App() {
   const [focalLengthInMillimeters, setFocalLengthInMillimeters] = useState(50);
   const [aperture, setAperture] = useState(1.8);
   const [subject, setSubject] = useState("Human");
-  const [system, setSystem] = useState<(typeof SYSTEMS)[number]>("Metric");
+  const [system, setSystem] = useState<(typeof SYSTEMS)[number]>("Imperial");
   const [sensor, setSensor] = useState("35mm (full frame)");
 
   const distanceToSubjectInMM = distanceToSubjectInInches * 25.4;
